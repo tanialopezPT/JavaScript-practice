@@ -1,7 +1,9 @@
 let database = [{
 username: 'tania',
 password: '123',
-}];
+},
+                {username: 'sally',
+password: '321'},];
 
 let newsfeed = [
 
@@ -27,6 +29,11 @@ let passwordPrompt= prompt('whats your password?');
 
 
 function signIn(username, password){
+  
+  for(var 1=0; i<database.length; i++) {
+    is (database[i].username === username && database[i].password === password) {
+      console.log(newsfeed); {
+        else {alert("sorry wrong password")}
 
 if (username === database[0].username && password === database[1].password){
 console.log(newsFeed);
